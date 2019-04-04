@@ -81,7 +81,7 @@
 									</header>
 									
 									<div class="ex1"><p style ="color: black";>
- <iframe src="https://s3.ca-central-1.amazonaws.com/rotmanx/MFRM+Pre+Courses/Derivatives+-+Alex+MacKay/Intro/Financial+Derivatives+1.1+Welcome.mp4" width="100%" height="350px;"></iframe>	<br> </br>								
+ <iframe style="padding-bottom: 5px;" src="https://play.library.utoronto.ca/embed/fFyzYBLEwdS1" width="100%" height="350px;"></iframe>	<br> </br>								
 Both Alex MacKay and John Hull are Finance professors here at the Rotman School of Management and would like to welcome you to the online Financial Derivatives pre-course for the MFRM program. The course will introduce you to futures, forwards, swaps, and options and will explain how they're used and why they've become really important products for anyone who works in finance. The online material does not cover everything you'll need to know, but it should give you a good grounding. The background reading for this course is the first half of Professor Hull's book, "Options, Futures, and Other Derivatives, 10th edition". We will indicate relevant sections of the book at the beginning of each module. As you already know, knowledge of Financial Derivatives is a required pre-requisite for the MFRM program. Some of you may be unfamiliar with the topics covered in the course, others may be using this as a refresher - whatever your situation, it is very important that you become comfortable with the material before the MFRM program begins.
 
 
@@ -162,10 +162,20 @@ Both Alex MacKay and John Hull are Finance professors here at the Rotman School 
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			
-		<script>	if (top.location!= self.location) {
-   top.location = self.location.href; </script>
-   
+		<!-- <script>	if (top.location!= self.location) {
+   top.location = self.location.href; </script> -->
 
+<script type="text/javascript"> // if site open in iframe then redirect to main site
+      
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  $(function(){
+ if(window.top.location != window.self.location)
+             {
+                top.window.location.href = window.self.location;
+             }
+        });
+}
+</script>
 
 
 
